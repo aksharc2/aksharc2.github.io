@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Akshar Chavan",
+    "label": "Graduate Research Associate",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "chavan.43@osu.edu",
+    // "phone": "(912) 123-4567",
+    "url": "https://aksharc2.github.io/",
+    "summary": "A computer scientist with background in Mechanical Engineering, Automobile Engineering and Industrial Engineering.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "1695 N 4th Street",
+      "postalCode": "43201",
+      "city": "Columbus",
       "countryCode": "US",
-      "region": "California"
+      "region": "Ohio"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "akshar-chavan",
+        "url": "https://www.linkedin.com/in/akshar-chavan/"
       }
     ]
   },
