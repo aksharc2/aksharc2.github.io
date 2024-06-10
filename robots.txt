@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aksharc2.github.io/aksharc2.github.io//sitemap.xml
+Sitemap: https://aksharc2.github.io/sitemap.xml
