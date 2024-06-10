@@ -42,71 +42,59 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2023-08-26",
-      "endDate": "2023-12-31",
+      "organization": "Wayne State University, Cyber-Physical Analytics Lab",
+      "location": "Michigan, USA",
+      "position": "Member",
+      "startDate": "2019-02-01",
+      "endDate": "2019-12-31",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "highlights": ["Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.", 
+                    "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
+                    "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
+                    ]
     }
   ],
   "education": [
     {
       "institution": "The Ohio State University",
       "location": "Ohio, USA",
-      "url": "https://www.osu.edu/",
+      "url": "https://www.osu.edu/",     
       "area": "Computer Systems",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Cyber Security", "Reinforcement Laearning", "Algorithms and Data Structures", "Parallel Computing", "Statistics", "Deterministic Optimization"]
+      "studyType": "PhD in Electrical and Computer Engineering",
+      "startDate": "2024-01-01",
+      "endDate": "present",
+      "score": "3.7",
+      "courses": ["Cyber Security", "Reinforcement Laearning"]
+    },
+    {
+      "institution": "Wayne State University",
+      "location": "Michigan, USA",
+      "url": "https://www.wayne.edu/",     
+      "area": "Computer Systems",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2020-08-01",
+      "endDate": "2023-12-31",
+      "score": "3.7",
+      "courses": ["Machine Learning", "Algorithms and Data Structures", "Parallel Computing", "Robot Operating System I and II"]
+    },
+    {
+      "institution": "Wayne State University",
+      "location": "Michigan, USA",
+      "url": "https://www.wayne.edu/",     
+      "area": "Deterministic Optimization",
+      "studyType": "Masters in Industrial Engineering",
+      "startDate": "2018-08-01",
+      "endDate": "2020-05-31",
+      "score": "3.57",
+      "courses": ["Applied Statistics", "Deterministic Optimization", "Supply Chain Management", "Engg. Risk and Decision Analysis"]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "IBM Data Science Specialization",
+      "date": "2019-06-01",
+      "issuer": "Coursera",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
@@ -134,16 +122,13 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming Language",
+      "level": "Fluent",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C",
+        "C++"
       ]
     }
   ],
@@ -166,15 +151,21 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Energy Aware Systems",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Robotics",
+        "Autonomous Systems",
+        "Edge Computing",
+        "IoT"
+      ]
+    },
+    {
+      "name": "Graph Algorithms",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Graph compression",
+        "Parallel Computing"
       ]
     }
   ],
@@ -197,12 +188,11 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Reinforcement Learning based: Battery lifespan aware scheduling of delivery robots",
+      "summary": "Reinforcement learning based autonomous delivery robot scheduling to minimize the battery degradation rate. This project aims to extend the robots battery life.",
+      "highlights": ["Reinforcement Learning", "Autonomus Robots"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01"
     }
   ]
 }
