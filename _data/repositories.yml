@@ -1,12 +1,5 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aksharc2
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aksharc2/Towards-High-Quality-Battery-Life-for-Autonomous-Mobile-Robot-Fleets
