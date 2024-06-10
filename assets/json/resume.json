@@ -42,12 +42,12 @@
   ],
   "volunteer": [
     {
-      "organization": "Wayne State University, Cyber-Physical Analytics Lab",
+      "organization": "Cyber-Physical Analytics Lab - Wayne State University",
       "location": "Michigan, USA",
       "position": "Member",
       "startDate": "2019-02-01",
       "endDate": "2019-12-31",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "summary": "Worked on opportunistic maintenance scheduling of connected vehicles with Dr. Murat Yildirim",
       "highlights": ["Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.", 
                     "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
                     "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
@@ -62,7 +62,7 @@
       "area": "Computer Systems",
       "studyType": "PhD in Electrical and Computer Engineering",
       "startDate": "2024-01-01",
-      "endDate": "present",
+      "endDate": "",
       "score": "3.7",
       "courses": ["Cyber Security", "Reinforcement Laearning"]
     },
