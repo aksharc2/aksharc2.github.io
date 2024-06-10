@@ -30,6 +30,15 @@
       "endDate": "2023-12-31",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": ["Operating Systems"]
+    },
+    {
+      "name": "Wayne State University",
+      "position": "Part-time Faculty",
+      "url": "https://example.com",
+      "startDate": "2023-08-26",
+      "endDate": "2023-12-31",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Operating Systems"]
     }
   ],
   "volunteer": [
