@@ -111,10 +111,10 @@
   "achievements": [
     {
       "name": "Formula Kart Design Challenge (FKDC)",
+      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "summary": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "highlights": ["Reinforcement Learning", "Autonomus Robots"],
-      "date": "2018-04-30",
-      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
+      "date": "2018-04-30", 
       "url": "https://www.fmae.in/fmaefkdc/"
     }
   ],
