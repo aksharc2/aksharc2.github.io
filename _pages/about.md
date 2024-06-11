@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. The Ohio State University, Columbus, Ohio, USA
+subtitle: <a href='https://u.osu.edu/brocanelli1/students/'>Affiliations</a>. EAS-Lab, The Ohio State University, Columbus, Ohio, USA
 
 profile:
   align: right
