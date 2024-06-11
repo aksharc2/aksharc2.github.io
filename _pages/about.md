@@ -7,7 +7,7 @@ subtitle: <a href='https://u.osu.edu/brocanelli1/research/'>EAS-Lab</a>, ECE Dep
 profile:
   align: right
   image: prof_pic_1.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>805 Dreese Laboratory</p>
     <p>2015 Neil Ave,</p>
