@@ -47,7 +47,7 @@
       "position": "Member",
       "startDate": "2019-02-01",
       "endDate": "2019-12-31",
-      "summary": ["Worked on opportunistic maintenance scheduling of connected vehicles with Dr. Murat Yildirim", "Worked on opportunistic maintenance scheduling of connected vehicles with Dr. Murat Yildirim"],
+      "summary": "Worked on opportunistic maintenance scheduling of connected vehicles with Dr. Murat Yildirim",
       "highlights": ["Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.", 
                     "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
                     "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
@@ -87,6 +87,16 @@
       "endDate": "2020-05-31",
       "score": "3.57",
       "courses": ["Applied Statistics", "Deterministic Optimization", "Supply Chain Management", "Engg. Risk and Decision Analysis"]
+    },
+    {
+      "institution": "Mumbai University",
+      "location": "Maharashtra, India",
+      "url": "https://mu.ac.in/",     
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelors in Mechanical Engineering",
+      "startDate": "2011-10-01",
+      "endDate": "2014-06-31",
+      "courses": ["Fluid Mechanics", "Automobile Engineering", "Thermodynamics", "Thermal Engineering", "Operations Research", "Heat and Mass Transfer", "Industrial Electronics"]
     }
   ],
   "certificates": [
@@ -157,7 +167,8 @@
         "Robotics",
         "Autonomous Systems",
         "Edge Computing",
-        "IoT"
+        "IoT",
+        "Scheduling"
       ]
     },
     {
@@ -173,7 +184,7 @@
     {
       "name": "Dr. Marco Brocanelli",
       "icon": "fa-solid fa-laptop",
-      "url":"https://engineering.osu.edu/people/brocanelli.1",
+      "item":"https://engineering.osu.edu/people/brocanelli.1",
       "reference": ""
     },
     {
