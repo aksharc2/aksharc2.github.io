@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://u.osu.edu/brocanelli1/students/'>EAS-Lab</a>. ECE Dept., The Ohio State University, Columbus, Ohio, USA
+subtitle: <a href='https://u.osu.edu/brocanelli1/research/'>EAS-Lab</a>. ECE Dept., The Ohio State University, Columbus, Ohio, USA
 
 profile:
   align: right
