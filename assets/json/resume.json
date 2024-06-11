@@ -21,7 +21,7 @@
       }
     ]
   },
-  "work": [
+  "teaching": [
     {
       "name": "Wayne State University",
       "position": "Part-time Faculty",
@@ -97,6 +97,31 @@
       "startDate": "2011-10-01",
       "endDate": "2014-06-31",
       "courses": ["Fluid Mechanics", "Automobile Engineering", "Thermodynamics", "Thermal Engineering", "Operations Research", "Heat and Mass Transfer", "Industrial Electronics"]
+    }
+  ],
+  "awards": [
+    {
+      "title": " Thomas C. Rumble University Graduate Fellowship",
+      "date": "2023-04-24",
+      "awarder": "Wayne State University",
+      "url": "https://gradschool.wayne.edu/students/funding/fellowships#rumble",
+      "summary": "The Thomas Rumble Fellowship supports Ph.D. students by providing financial aid and research assistantships, aimed at optimizing their performance and establishing clear outcomes at each training stage."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Formula Kart Design Challenge (FKDC)",
+      "date": "2018-04-30",
+      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
+      "url": "https://www.fmae.in/fmaefkdc/",
+      "summary": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad"]
+    },
+    {
+      "title": "Formula Kart Design Challenge (FKDC)",
+      "date": "2017-04-30",
+      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
+      "url": "https://www.fmae.in/fmaefkdc/",
+      "summary": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad"]
     }
   ],
   "certificates": [
