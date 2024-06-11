@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-11-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work on "<a href='https://ieeexplore.ieee.org/abstract/document/10323097'>A Maintenance-Aware Approach for Sustainable Autonomous Mobile Robot Fleet Management</a>" was selected for IEEE Transactions on Mobile Computing.
