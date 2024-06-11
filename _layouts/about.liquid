@@ -64,12 +64,15 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    <!-- Social  <div class="contact-note">{{ site.contact_note }}</div> -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        
+        <div>
+          <p>{{ page.contact_note | markdownify }}</p>
+        </div>
       </div>
     {% endif %}
   </article>
