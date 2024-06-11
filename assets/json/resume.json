@@ -38,6 +38,15 @@
       "endDate": "2018-05-31",
       "summary": "Teaching Mechanical Engineering Courses to the Diploma in Mechanical Engineering Students",
       "highlights": ["Thermal Engineering", "Fluid Mechanics", "AutoCAD", "Engineering Drawing"]
+    },
+    {
+      "name": "Government Polytechnic Thane, Thane, Maharashtra, India",
+      "position": "Visiting Lecturer",
+      "url": "https://gpthane.org.in/",
+      "startDate": "2015-01-01",
+      "endDate": "2015-05-31",
+      "summary": "Teaching Mechanical Engineering Courses to the Diploma in Mechanical Engineering Students",
+      "highlights": ["Thermal Engineering", "Engineering Drawing"]
     }
   ],
   "volunteer": [
@@ -47,7 +56,7 @@
       "position": "Member",
       "startDate": "2019-02-01",
       "endDate": "2019-12-31",
-      "summary": "Worked on opportunistic maintenance scheduling of connected vehicles with Dr. Murat Yildirim",
+      "summary": "Worked on opportunistic maintenance scheduling of connected vehicles under the guidance of Dr. Murat Yildirim",
       "highlights": ["Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.", 
                     "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
                     "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
@@ -101,7 +110,7 @@
   ],
   "awards": [
     {
-      "title": " Thomas C. Rumble University Graduate Fellowship",
+      "title": "Thomas C. Rumble University Graduate Fellowship",
       "date": "2023-04-24",
       "awarder": "Wayne State University",
       "url": "https://gradschool.wayne.edu/students/funding/fellowships#rumble",
@@ -114,7 +123,7 @@
       "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
       "highlights": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad"],
-      "date": "2018-04-30", 
+      "date": "2017-04-30", 
       "url": "https://www.fmae.in/fmaefkdc/"
     },
     {
@@ -141,20 +150,6 @@
       "releaseDate": "1905-06-30",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
       "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
