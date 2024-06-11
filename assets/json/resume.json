@@ -40,25 +40,6 @@
       "highlights": ["Thermal Engineering", "Fluid Mechanics", "AutoCAD", "Engineering Drawing"]
     }
   ],
-  "work": [
-    {
-      "name": "Wayne State University",
-      "position": "Part-time Faculty",
-      "startDate": "2023-08-26",
-      "endDate": "2023-12-31",
-      "summary": "Teaching Computer Operating Systems an undergraduate level course.",
-      "highlights": ["Operating Systems"]
-    },
-    {
-      "name": "St. John College of Engineering and Management, Palghar, Maharashtra, India",
-      "position": "Lecturer",
-      "url": "https://www.sjcem.edu.in/eng-diploma/",
-      "startDate": "2015-06-01",
-      "endDate": "2018-05-31",
-      "summary": "Teaching Mechanical Engineering Courses to the Diploma in Mechanical Engineering Students",
-      "highlights": ["Thermal Engineering", "Fluid Mechanics", "AutoCAD", "Engineering Drawing"]
-    }
-  ],
   "volunteer": [
     {
       "organization": "Cyber-Physical Analytics Lab - Wayne State University",
@@ -131,8 +112,16 @@
     {
       "name": "Formula Kart Design Challenge (FKDC)",
       "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
-      "summary": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
-      "highlights": ["Reinforcement Learning", "Autonomus Robots"],
+      "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
+      "highlights": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad"],
+      "date": "2018-04-30", 
+      "url": "https://www.fmae.in/fmaefkdc/"
+    },
+    {
+      "name": "Formula Kart Design Challenge (FKDC)",
+      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
+      "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
+      "highlights": ["First Place: Overall, Business Plan, Skidpad, Autocross, Endurance & Fuel Economy", "Second Place: Design & CAE"],
       "date": "2018-04-30", 
       "url": "https://www.fmae.in/fmaefkdc/"
     }
