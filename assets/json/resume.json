@@ -40,6 +40,25 @@
       "highlights": ["Thermal Engineering", "Fluid Mechanics", "AutoCAD", "Engineering Drawing"]
     }
   ],
+  "work": [
+    {
+      "name": "Wayne State University",
+      "position": "Part-time Faculty",
+      "startDate": "2023-08-26",
+      "endDate": "2023-12-31",
+      "summary": "Teaching Computer Operating Systems an undergraduate level course.",
+      "highlights": ["Operating Systems"]
+    },
+    {
+      "name": "St. John College of Engineering and Management, Palghar, Maharashtra, India",
+      "position": "Lecturer",
+      "url": "https://www.sjcem.edu.in/eng-diploma/",
+      "startDate": "2015-06-01",
+      "endDate": "2018-05-31",
+      "summary": "Teaching Mechanical Engineering Courses to the Diploma in Mechanical Engineering Students",
+      "highlights": ["Thermal Engineering", "Fluid Mechanics", "AutoCAD", "Engineering Drawing"]
+    }
+  ],
   "volunteer": [
     {
       "organization": "Cyber-Physical Analytics Lab - Wayne State University",
