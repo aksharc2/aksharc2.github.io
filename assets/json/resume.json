@@ -180,23 +180,6 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Dr. Marco Brocanelli",
-      "icon": "fa-solid fa-laptop",
-      "reference": ""
-    },
-    {
-      "name": "Dr. Daniel Grosu",
-      "icon": "fa-solid fa-laptop",
-      "reference": ""
-    },
-    {
-      "name": "Dr. Murat Yildirim",
-      "icon": "fa-solid fa-laptop",
-      "reference": ""
-    }
-  ],
   "projects": [
     {
       "name": "Reinforcement Learning based: Battery lifespan aware scheduling of delivery robots",
