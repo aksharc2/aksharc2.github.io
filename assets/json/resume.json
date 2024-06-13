@@ -119,19 +119,19 @@
   ],
   "achievements": [
     {
-      "name": "Formula Kart Design Challenge (FKDC)",
-      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
-      "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
-      "highlights": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad"],
-      "date": "2017-04-30", 
-      "url": "https://www.fmae.in/fmaefkdc/"
-    },
-    {
-      "name": "Formula Kart Design Challenge (FKDC)",
+      "name": "First Place at Formula Kart Design Challenge (FKDC)",
       "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
       "highlights": ["First Place: Overall, Business Plan, Skidpad, Autocross, Endurance & Fuel Economy", "Second Place: Design & CAE"],
       "date": "2018-04-30", 
+      "url": "https://www.fmae.in/fmaefkdc/"
+    },
+    {
+      "name": "Third Place at Formula Kart Design Challenge (FKDC)",
+      "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
+      "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
+      "highlights": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad", "Third Place: Overall"],
+      "date": "2017-04-30", 
       "url": "https://www.fmae.in/fmaefkdc/"
     }
   ],
