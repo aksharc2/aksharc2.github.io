@@ -145,8 +145,15 @@
   ],
   "publications": [
     {
+      "title": "A Battery Lifespan-Aware Protocol for LPWAN",
+      "authors": "Fahmida, Sezana, Chavan, Akshar Shravan, Modekurthy Venkata Prashant , Saifullah Abusayeed  and Brocanelli Marco",
+      "publisher": "2024 IEEE 44th International Conference on Distributed Computing Systems (ICDCS)",
+      "releaseDate": "2024",
+      "url": "#"
+    },
+    {
       "title": "A Maintenance-Aware Approach for Sustainable Autonomous Mobile Robot Fleet Management",
-      "authors": "Atik, Syeda Tanjila and Chavan, Akshar Shravan and Grosu, Daniel and Brocanelli, Marco",
+      "authors": "Atik Syeda Tanjila, Chavan Akshar Shravan, Grosu Daniel and Brocanelli Marco",
       "publisher": "IEEE Transactions on Mobile Computing",
       "releaseDate": "2024",
       "url": "https://ieeexplore.ieee.org/abstract/document/10323097"
