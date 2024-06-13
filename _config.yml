@@ -219,6 +219,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin/
+  - dropdown.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
