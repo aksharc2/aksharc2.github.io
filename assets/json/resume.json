@@ -146,14 +146,14 @@
   "publications": [
     {
       "title": "A Maintenance-Aware Approach for Sustainable Autonomous Mobile Robot Fleet Management",
-      "name": "Atik, Syeda Tanjila and Chavan, Akshar Shravan and Grosu, Daniel and Brocanelli, Marco",
+      "authors": "Atik, Syeda Tanjila and Chavan, Akshar Shravan and Grosu, Daniel and Brocanelli, Marco",
       "publisher": "IEEE Transactions on Mobile Computing",
       "releaseDate": "2024",
       "url": "https://ieeexplore.ieee.org/abstract/document/10323097"
     },
     {
       "title": "Towards High-Quality Battery Life for Autonomous Mobile Robot Fleets",
-      "name": "Chavan, Akshar Shravan and Brocanelli, Marco",
+      "authors": "Chavan, Akshar Shravan and Brocanelli, Marco",
       "publisher": "2022 IEEE International Conference on Autonomic Computing and Self-Organizing Systems (ACSOS)",
       "releaseDate": "2022",
       "url": "https://ieeexplore.ieee.org/abstract/document/9935008"
