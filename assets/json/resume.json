@@ -145,17 +145,18 @@
   ],
   "publications": [
     {
-      "name": "Atik, S. T. and Chavan, A. S. and Grosu, D. and Brocanelli, M.",
+      "title": "A Maintenance-Aware Approach for Sustainable Autonomous Mobile Robot Fleet Management",
+      "name": "Atik, Syeda Tanjila and Chavan, Akshar Shravan and Grosu, Daniel and Brocanelli, Marco",
       "publisher": "IEEE Transactions on Mobile Computing",
       "releaseDate": "2024",
       "url": "https://ieeexplore.ieee.org/abstract/document/10323097"
     },
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "title": "Towards High-Quality Battery Life for Autonomous Mobile Robot Fleets",
+      "name": "Chavan, Akshar Shravan and Brocanelli, Marco",
+      "publisher": "2022 IEEE International Conference on Autonomic Computing and Self-Organizing Systems (ACSOS)",
+      "releaseDate": "2022",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9935008"
     }
   ],
   "skills": [
