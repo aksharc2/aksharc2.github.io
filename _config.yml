@@ -111,7 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: aksharc2 # your zotero username
 
 contact_note: >
-  The best way to get in contact is via email
+  The best way to get in contact is via 
 
 
 # -----------------------------------------------------------------------------
@@ -354,7 +354,6 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
-    github,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
