@@ -19,7 +19,9 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.title }}</a>
           </h6>
-          {% assign authors = content.authors | replace: "Chavan, Akshar Shravan", "<strong>Chavan, Akshar Shravan</strong>" %}
+          {% assign authors = content.authors | replace: "Chavan,", "<strong>Chavan,</strong>" %}
+          {% assign authors = content.authors | replace: "Shravan", "<strong>Shravan</strong>" %}
+          {% assign authors = content.authors | replace: "Akshar", "<strong>Akshar</strong>" %}
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ authors | raw }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.publisher }}</h6>
         </div>
