@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    <p class="project-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>Related Publications</h2>
+      <div class="publications">
+        {% assign selected_keys = page.related_publications %}
+          {% for cite in selected_keys %}
+            {% bibliography --group_by none --query @*[key={{ cite }}]* %}
+          {% endfor %}
+      </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>

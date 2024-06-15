@@ -1,13 +1,16 @@
 ---
-layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+layout: project
+title: Towards High-Quality Battery Life for Autonomous Mobile Robot Fleets
+description: A combined Tasks and Charging schedule Manager (TCM) for autonomous mobile robots fleets for high quality battery life.
+img: assets/img/publication_preview/TCM.jpg
 importance: 1
-category: work
-related_publications: true
+category: Research Pojects
+related_publications:
+  - tcm
+  - mtc
+github: https://github.com/aksharc2/Towards-High-Quality-Battery-Life-for-Autonomous-Mobile-Robot-Fleets.git
 ---
-
+<!-- <h1 style="font-size: 2rem;">{{ page.title }}</h1> -->
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -22,8 +25,9 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
 
 <div class="row">
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/TCM.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -77,5 +81,6 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ```
+
 
 {% endraw %}

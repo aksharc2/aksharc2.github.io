@@ -51,3 +51,19 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+.project-title {
+  font-size: 1.5rem; // Adjust this value as needed for the desired size
+  font-weight: bold; // Optional: add any additional styling
+  }
+
+  .project h2 {
+    font-size: 1.5rem; /* Adjust the font size as per your design */
+    text-align: center;
+    /* Additional styles if needed */
+  }
+  .project h3 {
+    font-size: 1.2rem; /* Adjust the font size as per your design */
+    text-align: center;
+    /* Additional styles if needed */
+  }

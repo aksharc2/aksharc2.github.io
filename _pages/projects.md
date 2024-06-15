@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: project
 title: Projects
 permalink: /projects/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research Pojects, Personal Projects, Ideas]
 horizontal: false
 ---
 
@@ -13,8 +13,9 @@ horizontal: false
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
+  <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category | slugify }}" href="#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
@@ -23,15 +24,15 @@ horizontal: false
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
+      {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
