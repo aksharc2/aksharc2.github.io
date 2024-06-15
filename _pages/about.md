@@ -20,8 +20,12 @@ social: true # includes social icons at the bottom of the page
 
 <div style="text-align: justify;">
 
-<p>I am a Ph.D. student in the Department of Electrical and Computer Engineering at The Ohio State University, under the guidance of <a href='https://u.osu.edu/brocanelli1/'>Dr. Marco Brocanelli</a>. My research focuses on developing algorithms to maximize the battery lifespan of autonomous systems, which I implement and test on autonomous mobile robots.</p>
+<p>I am currently a Ph.D. student in the Department of Electrical and Computer Engineering at The Ohio State University, supervised by <a href='https://u.osu.edu/brocanelli1/'>Dr. Marco Brocanelli</a>. My research is dedicated to developing algorithms aimed at optimizing the battery lifespan of autonomous systems. Specifically, I focus on developing algorithms that not only enhance the operational efficiency of these systems but also extend their overall battery longevity. I validate and refine these algorithms through rigorous testing on autonomous mobile robots, where real-world conditions provide crucial insights into their practical effectiveness.</p>
 
-<p>I hold a Master's of Science degree in Industrial Engineering from Wayne State University (2020), where I collaborated with <a href='https://engineering.wayne.edu/profile/gr7140'>Dr. Murat Yildirim</a> in the Cyber-Physical Analytics Lab, focusing on opportunistic maintenance scheduling of connected vehicles. I earned my Bachelor's degree in Mechanical Engineering from the University of Mumbai, India (2014), and also hold a Diploma in Automobile Engineering (2011). My diverse educational background gives me a practical understanding of various engineering fields, which I use to enhance the performance of cyber-physical systems like autonomous robots.</p>
+<p>Prior to this, I earned a Master's of Science degree in Industrial Engineering from Wayne State University (2020). During my time there, I collaborated with <a href='https://engineering.wayne.edu/profile/gr7140'>Dr. Murat Yildirim</a> in the Cyber-Physical Analytics Lab, where our research centered on opportunistic maintenance scheduling for connected vehicles.</p>
+
+<p>My academic journey in engineering began with a Diploma in Automobile Engineering in 2011, which provided me with practical skills and a strong foundation in vehicle mechanics. Building on that, I went on to earn a Bachelor's degree in Mechanical Engineering from the University of Mumbai in 2014. This combination of hands-on training and academic knowledge has given me a comprehensive understanding of engineering principles.</p>
+
+<p>My diverse educational background equips me with a practical understanding across various engineering disciplines, enhancing my ability to optimize the performance of cyber-physical systems such as autonomous robots.</p>
 
 </div>
