@@ -57,17 +57,18 @@
       "startDate": "2019-02-01",
       "endDate": "2019-12-31",
       "summary": "Worked on opportunistic maintenance scheduling of connected vehicles under the guidance of Dr. Murat Yildirim",
-      "highlights": ["Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.", 
-                    "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
-                    "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
-                    ]
+      "highlights": [
+        "Developed aunified maintenance scheduling framework for a large fleet of connected vehicles that integrate multi-vehicle routing, maintenance, and predictive analytics using real-time sensor-driven data.",
+        "Modeled mixed fleet dynamic vehicle routing problems (DVRP) considering uncertainties and drone delivery",
+        "Investigated the impact of disruptions on logistics for heterogeneous vehicle fleets."
+      ]
     }
   ],
   "education": [
     {
       "institution": "The Ohio State University",
       "location": "Ohio, USA",
-      "url": "https://www.osu.edu/",     
+      "url": "https://www.osu.edu/",
       "area": "Computer Systems",
       "studyType": "PhD in Electrical and Computer Engineering",
       "startDate": "2024-01-01",
@@ -78,7 +79,7 @@
     {
       "institution": "Wayne State University",
       "location": "Michigan, USA",
-      "url": "https://www.wayne.edu/",     
+      "url": "https://www.wayne.edu/",
       "area": "Computer Systems",
       "studyType": "PhD in Computer Science",
       "startDate": "2020-08-01",
@@ -89,7 +90,7 @@
     {
       "institution": "Wayne State University",
       "location": "Michigan, USA",
-      "url": "https://www.wayne.edu/",     
+      "url": "https://www.wayne.edu/",
       "area": "Deterministic Optimization",
       "studyType": "Masters in Industrial Engineering",
       "startDate": "2018-08-01",
@@ -100,12 +101,20 @@
     {
       "institution": "Mumbai University",
       "location": "Maharashtra, India",
-      "url": "https://mu.ac.in/",     
+      "url": "https://mu.ac.in/",
       "area": "Mechanical Engineering",
       "studyType": "Bachelors in Mechanical Engineering",
       "startDate": "2011-10-01",
       "endDate": "2014-06-31",
-      "courses": ["Fluid Mechanics", "Automobile Engineering", "Thermodynamics", "Thermal Engineering", "Operations Research", "Heat and Mass Transfer", "Industrial Electronics"]
+      "courses": [
+        "Fluid Mechanics",
+        "Automobile Engineering",
+        "Thermodynamics",
+        "Thermal Engineering",
+        "Operations Research",
+        "Heat and Mass Transfer",
+        "Industrial Electronics"
+      ]
     }
   ],
   "awards": [
@@ -123,7 +132,7 @@
       "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
       "highlights": ["First Place: Overall, Business Plan, Skidpad, Autocross, Endurance & Fuel Economy", "Second Place: Design & CAE"],
-      "date": "2018-04-30", 
+      "date": "2018-04-30",
       "url": "https://www.fmae.in/fmaefkdc/"
     },
     {
@@ -131,7 +140,7 @@
       "awarder": "The Fraternity of Mechanical and Automotive Engineers (FMAE)",
       "summary": "FMAE is a prestigious professional organization dedicated to promoting excellence in the fields of mechanical engineering and automotive technology. FMAE brings together a diverse community of engineers, researchers, academics, and industry professionals who are passionate about advancing the knowledge and practice of mechanical and automotive engineering.",
       "highlights": ["First Place: Endurance & Fuel Economy", "Second Place: Skidpad", "Third Place: Overall"],
-      "date": "2017-04-30", 
+      "date": "2017-04-30",
       "url": "https://www.fmae.in/fmaefkdc/"
     }
   ],
@@ -171,11 +180,7 @@
       "name": "Programming Language",
       "level": "Fluent",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "C",
-        "C++"
-      ]
+      "keywords": ["Python", "C", "C++"]
     }
   ],
   "languages": [
@@ -199,21 +204,12 @@
     {
       "name": "Energy Aware Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Robotics",
-        "Autonomous Systems",
-        "Edge Computing",
-        "IoT",
-        "Scheduling"
-      ]
+      "keywords": ["Robotics", "Autonomous Systems", "Edge Computing", "IoT", "Scheduling"]
     },
     {
       "name": "Graph Algorithms",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Graph compression",
-        "Parallel Computing"
-      ]
+      "keywords": ["Graph compression", "Parallel Computing"]
     }
   ],
   "projects": [

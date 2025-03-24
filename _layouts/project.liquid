@@ -13,12 +13,12 @@ layout: default
 
   {% if page.related_publications %}
     <h2>Related Publications</h2>
-      <div class="publications">
-        {% assign selected_keys = page.related_publications %}
-          {% for cite in selected_keys %}
-            {% bibliography --group_by none --query @*[key={{ cite }}]* %}
-          {% endfor %}
-      </div>
+    <div class="publications">
+      {% assign selected_keys = page.related_publications %}
+      {% for cite in selected_keys %}
+        {% bibliography --group_by none --query @*[key={{ cite }}]* %}
+      {% endfor %}
+    </div>
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}

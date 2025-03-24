@@ -26,7 +26,6 @@ social: true # includes social icons at the bottom of the page
 
 <p>My academic journey in engineering began with a Diploma in Automobile Engineering in 2011, which provided me with practical skills and a strong foundation in vehicle mechanics. Building on that foundation, I later earned a Bachelor's degree in Mechanical Engineering from the University of Mumbai in 2014. This combination of hands-on training and academic knowledge has given me a comprehensive understanding of engineering principles. After completing my Bachelor's degree, I accumulated 3.5 years of teaching experience as a Lecturer in the Department of Mechanical Engineering, including roles at <a href='https://gpthane.org.in/'>Government Polytechnic Thane</a> and <a href='https://www.sjcem.edu.in/eng-diploma/'>St. John College of Engineering and Management</a>.</p>
 
-
 <p>My diverse educational background equips me with a practical understanding across various engineering disciplines, enhancing my ability to optimize the performance of cyber-physical systems such as autonomous robots.</p>
 
 </div>

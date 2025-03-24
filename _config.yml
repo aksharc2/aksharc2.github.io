@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true  #true
+rss_icon: true #true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -49,7 +49,7 @@ rss_icon: true  #true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false # 
+search_enabled: false #
 socials_in_search: true
 
 # Dimensions
@@ -111,8 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: aksharc2 # your zotero username
 
 contact_note: >
-  The best way to get in contact is via 
-
+  The best way to get in contact is via
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
