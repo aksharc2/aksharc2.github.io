@@ -190,7 +190,10 @@
     }
   ],
   "skills": [
-    { "keywords": ["Programming Languages: Python (4+ years), C (2+ years), C++ (2+ years)", "Robotics and Embedded Systems: Robot Operating System (ROS) (Proficient in developing ROS nodes and packages,experience with Gazebo simulation), Arduino (Experience with microcontroller programming and sensor integration), Mobile Robotics (Experience with control algorithms and sensor integration for wheeled robots)", 
+    {
+      "level": "Fluent",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Programming Languages: Python (4+ years), C (2+ years), C++ (2+ years)", "Robotics and Embedded Systems: Robot Operating System (ROS) (Proficient in developing ROS nodes and packages,experience with Gazebo simulation), Arduino (Experience with microcontroller programming and sensor integration), Mobile Robotics (Experience with control algorithms and sensor integration for wheeled robots)", 
       "Machine Learning: Keras, TensorFlow, Reinforcement Learning", 
       "Data Analysis and Visualization: Pandas, NumPy, Matplotlib, Plotly",
       "Version Control: Git, GitHub",
