@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Resume
 nav: true
 nav_order: 5
 cv_pdf: akshar_chavan_resume.pdf
