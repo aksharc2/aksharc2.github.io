@@ -14,3 +14,6 @@ vendor
 _site/
 .bundle/
 vendor/
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,5 +1,31 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+---
+layout: about
+title: About
+permalink: /
+# subtitle: <a href='https://u.osu.edu/brocanelli1/research/'>EAS-Lab</a>, ECE Dept., The Ohio State University, Columbus, Ohio, USA
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+profile:
+  align: right
+  image: prof_pic_1.jpg
+  image_circular: true # crops the image to make it circular
+  # more_info: >
+  #   <p>805 Dreese Laboratory</p>
+  #   <p>2015 Neil Ave,</p>
+  #   <p>Columbus, OH 43210</p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+---
+
+<div style="text-align: justify; line-height: 1.6;">
+
+<p>I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at The Ohio State University. I work in the <a href="https://u.osu.edu/brocanelli/">Energy-Aware Systems Lab (EAS-Lab)</a> and am advised by Dr. Marco Brocanelli. My research lies at the intersection of <b>autonomous systems, edge computing, and cyber-physical systems</b>, with a focus on designing systems that operate efficiently under constraints in computation, communication, energy, and physical capability.</p>
+
+<p>A central theme of my work is developing <b>resource-aware, safety-aware, and physics-aware</b> algorithms that account for the long-term effects of autonomy, including battery degradation, hardware limitations, and environmental uncertainty. My goal is to enable autonomous systems that are not only high-performing, but also <b>reliable, efficient, and sustainable over extended operation</b>.</p>
+
+<p>I validate these ideas through both algorithmic design and experimental systems, including real-world robotic platforms and hardware-in-the-loop testing. My work has appeared in venues such as <i>IEEE Transactions on Mobile Computing</i> and <i>Networks</i>.</p>
+
+<p>In addition to research, I am actively involved in teaching and mentoring, having served as an Instructor of Record and as a mentor to undergraduate and graduate researchers. I am interested in pursuing a faculty career focused on building a research program in sustainable and dependable autonomous systems.</p>
+
+</div>

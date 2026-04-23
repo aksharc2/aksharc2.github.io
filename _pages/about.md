@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://u.osu.edu/brocanelli1/research/'>EAS-Lab</a>, ECE Dept., The Ohio State University, Columbus, Ohio, USA
+# subtitle: <a href='https://u.osu.edu/brocanelli1/research/'>EAS-Lab</a>, ECE Dept., The Ohio State University, Columbus, Ohio, USA
 
 profile:
   align: right
@@ -13,19 +13,56 @@ profile:
   #   <p>2015 Neil Ave,</p>
   #   <p>Columbus, OH 43210</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="text-align: justify;">
+<div style="text-align: justify; line-height: 1.6;">
 
-<p>I am currently a Ph.D. student in the Department of Electrical and Computer Engineering at The Ohio State University, supervised by <a href='https://u.osu.edu/brocanelli1/'>Dr. Marco Brocanelli</a>. My research is dedicated to developing algorithms aimed at optimizing the battery lifespan of autonomous systems. Specifically, I focus on developing algorithms that not only enhance the operational efficiency of these systems but also extend their overall battery longevity. I validate and refine these algorithms through rigorous testing on autonomous mobile robots, where real-world conditions provide crucial insights into their practical effectiveness.</p>
+<p>I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at The Ohio State University. I work in the <a href="https://u.osu.edu/brocanelli/">Energy-Aware Systems Lab (EAS-Lab)</a> and am advised by Dr. Marco Brocanelli. My research lies at the intersection of <b>autonomous systems, edge computing, and cyber-physical systems</b>, with a focus on designing systems that operate efficiently under constraints in computation, communication, energy, and physical capability.</p>
 
-<p>Prior to this, I earned a Master's of Science degree in Industrial Engineering from Wayne State University (2020). During my time there, I collaborated with <a href='https://engineering.wayne.edu/profile/gr7140'>Dr. Murat Yildirim</a> in the Cyber-Physical Analytics Lab, where our research centered on opportunistic maintenance scheduling for connected vehicles.</p>
+<p>A central theme of my work is developing <b>resource-aware, safety-aware, and physics-aware</b> algorithms that account for the long-term effects of autonomy, including battery degradation, hardware limitations, and environmental uncertainty. My goal is to enable autonomous systems that are not only high-performing, but also <b>reliable, efficient, and sustainable over extended operation</b>.</p>
 
-<p>My academic journey in engineering began with a Diploma in Automobile Engineering in 2011, which provided me with practical skills and a strong foundation in vehicle mechanics. Building on that foundation, I later earned a Bachelor's degree in Mechanical Engineering from the University of Mumbai in 2014. This combination of hands-on training and academic knowledge has given me a comprehensive understanding of engineering principles. After completing my Bachelor's degree, I accumulated 3.5 years of teaching experience as a Lecturer in the Department of Mechanical Engineering, including roles at <a href='https://gpthane.org.in/'>Government Polytechnic Thane</a> and <a href='https://www.sjcem.edu.in/eng-diploma/'>St. John College of Engineering and Management</a>.</p>
+<p>I validate these ideas through both algorithmic design and experimental systems, including real-world robotic platforms and hardware-in-the-loop testing. My work has appeared in venues such as <i>IEEE Transactions on Mobile Computing</i> and <i>Networks</i>.</p>
 
-<p>My diverse educational background equips me with a practical understanding across various engineering disciplines, enhancing my ability to optimize the performance of cyber-physical systems such as autonomous robots.</p>
+<p>In addition to research, I am actively involved in teaching and mentoring, having served as an Instructor of Record and as a mentor to undergraduate and graduate researchers. I am interested in pursuing a faculty career focused on building a research program in sustainable and dependable autonomous systems.</p>
 
 </div>
+
+<h2>News</h2>
+
+{% assign now_ts = "now" | date: "%s" | plus: 0 %}
+{% assign cutoff = now_ts | minus: 31536000 %}
+
+<ul class="news-list">
+  {% for post in site.news %}
+    {% assign post_time = post.date | date: "%s" | plus: 0 %}
+    {% if post_time > cutoff %}
+      <li>
+        <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
+        {{ post.content }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<style>
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news-list li {
+    margin-bottom: 0.8rem;
+  }
+
+  .news-date {
+    display: inline-block;
+    min-width: 130px;
+    font-weight: 600;
+    color: #222;
+    vertical-align: top;
+  }
+</style>
