@@ -42,7 +42,7 @@ nav_order: 2
   .pubs-clean .periodical {
     display: inline;
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   .pubs-clean .periodical + .periodical {

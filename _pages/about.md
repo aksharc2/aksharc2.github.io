@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="text-align: justify; line-height: 1.6;">
+<div style="text-align: justify; line-height: 1.5;">
 
 <p>I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at The Ohio State University. I work in the <a href="https://u.osu.edu/brocanelli/">Energy-Aware Systems Lab (EAS-Lab)</a> and am advised by Dr. Marco Brocanelli. My research lies at the intersection of <b>autonomous systems, edge computing, and cyber-physical systems</b>, with a focus on designing systems that operate efficiently under constraints in computation, communication, energy, and physical capability.</p>
 
