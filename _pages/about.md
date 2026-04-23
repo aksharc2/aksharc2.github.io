@@ -35,34 +35,47 @@ social: true # includes social icons at the bottom of the page
 {% assign now_ts = "now" | date: "%s" | plus: 0 %}
 {% assign cutoff = now_ts | minus: 31536000 %}
 
-<ul class="news-list">
+<div class="news-list">
   {% for post in site.news %}
     {% assign post_time = post.date | date: "%s" | plus: 0 %}
     {% if post_time > cutoff %}
-      <li>
-        <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
-        {{ post.content }}
-      </li>
+      <div class="news-item">
+        <div class="news-date">
+          {{ post.date | date: "%b %d, %Y" }}
+        </div>
+        <div class="news-text">
+          {{ post.content }}
+        </div>
+      </div>
     {% endif %}
   {% endfor %}
-</ul>
+</div>
 
 <style>
-  .news-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .news-list li {
-    margin-bottom: 0.8rem;
+  .news-item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.9rem;
   }
 
   .news-date {
-    display: inline-block;
-    min-width: 130px;
-    font-weight: 600;
-    color: #222;
-    vertical-align: top;
+    font-weight: 300;
+    color: var(--global-text-color);
+    white-space: nowrap;
+  }
+
+  .news-text {
+    line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    .news-item {
+      grid-template-columns: 1fr;
+    }
+
+    .news-date {
+      margin-bottom: 0.2rem;
+    }
   }
 </style>
