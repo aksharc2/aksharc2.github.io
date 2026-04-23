@@ -51,5 +51,6 @@ nav_order: 2
 </style>
 
 <div class="pubs-clean">
-  {% bibliography --sort_by year,month --order descending %}
+  {% bibliography --sort_by year --order descending %}
+  <!-- {% bibliography %} -->
 </div>
