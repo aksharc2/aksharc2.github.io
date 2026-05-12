@@ -34,9 +34,10 @@ social: true # includes social icons at the bottom of the page
 
 {% assign now_ts = "now" | date: "%s" | plus: 0 %}
 {% assign cutoff = now_ts | minus: 31536000 %}
+{% assign sorted_news = site.news | sort: "date" | reverse %}
 
 <div class="news-list">
-  {% for post in site.news %}
+  {% for post in sorted_news %}
     {% assign post_time = post.date | date: "%s" | plus: 0 %}
     {% if post_time > cutoff %}
       <div class="news-item">
