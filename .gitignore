@@ -17,3 +17,12 @@ vendor/
 .DS_Store
 Thumbs.db
 .vscode/
+
+
+# Local development environments
+.venv/
+.vscode/
+vendor/bundle/
+
+# Bundler local configuration
+.bundle/

@@ -67,3 +67,77 @@ body.sticky-bottom-footer {
   text-align: center;
   /* Additional styles if needed */
 }
+
+
+/* About page: portrait outside the reading column. Scoped to homepage only. */
+.about-page {
+  .about-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+
+  .about-sidebar {
+    width: 180px;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .about-sidebar figure { margin: 0; }
+  .about-sidebar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 4px solid var(--global-bg-color);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  }
+
+  .about-main { min-width: 0; }
+  .post-header { margin-bottom: 1.5rem; }
+  .post-title { letter-spacing: -0.025em; }
+  .about-main article { line-height: 1.65; }
+  .about-main article p { margin-bottom: 1rem; }
+
+  @media (min-width: 992px) {
+    .about-shell {
+      width: min(1160px, calc(100vw - 64px));
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      grid-template-columns: 205px minmax(0, 1fr);
+      gap: 52px;
+      align-items: start;
+    }
+
+    .about-sidebar {
+      width: 205px;
+      margin-top: 0.35rem;
+      position: sticky;
+      top: 96px;
+    }
+
+    .about-main { max-width: 903px; }
+  }
+
+  @media (max-width: 991px) {
+    .about-sidebar { width: 165px; }
+    .post-header { text-align: center; }
+  }
+}
+
+
+
+.profile-description {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--global-text-color-light);
+
+  .profile-role {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin-bottom: 0.4rem;
+  }
+}

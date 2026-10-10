@@ -20,13 +20,15 @@ social: true # includes social icons at the bottom of the page
 
 <div style="text-align: justify; line-height: 1.5;">
 
-<p>I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at The Ohio State University. I work in the <a href="https://u.osu.edu/brocanelli/">Energy-Aware Systems Lab (EAS-Lab)</a> and am advised by Dr. Marco Brocanelli. My research lies at the intersection of <b>autonomous systems, edge computing, and cyber-physical systems</b>, with a focus on designing systems that operate efficiently under constraints in computation, communication, energy, and physical capability.</p>
+<p>I am a researcher and systems engineer working at the intersection of <b>autonomous systems, robotics, and computing systems</b>. My doctoral research in Electrical and Computer Engineering at The Ohio State University, advised by Dr. Marco Brocanelli in the <a href="https://u.osu.edu/brocanelli/">Energy-Aware Systems Lab (EAS-Lab)</a>, focuses on improving the efficiency, reliability, and sustainability of resource-constrained autonomous systems.</p>
 
-<p>A central theme of my work is developing <b>resource-aware, safety-aware, and physics-aware</b> algorithms that account for the long-term effects of autonomy, including battery degradation, hardware limitations, and environmental uncertainty. My goal is to enable autonomous systems that are not only high-performing, but also <b>reliable, efficient, and sustainable over extended operation</b>.</p>
+<p>My work combines <b>algorithm design, software development, and experimental systems engineering</b>. I am particularly interested in how computing resources, hardware limitations, energy consumption, and physical dynamics influence the behavior of autonomous systems. My research spans resource-aware autonomy, energy-efficient robotic navigation, battery-aware computing, edge computing, and parallel graph algorithms.</p>
 
-<p>I validate these ideas through both algorithmic design and experimental systems, including real-world robotic platforms and hardware-in-the-loop testing. My work has appeared in venues such as <i>IEEE Transactions on Mobile Computing</i> and <i>Networks</i>.</p>
+<p>Beyond algorithm development, I have hands-on experience building and integrating robotic systems, including developing an autonomous mobile robot platform from the ground up. This work has involved embedded computing, sensing, motor control, power monitoring, ROS-based navigation, and software-hardware integration. Working across these components has shaped my interest in understanding how computation, communication, sensing, and physical execution interact in real robotic systems.</p>
 
-<p>In addition to research, I am actively involved in teaching and mentoring, having served as an Instructor of Record and as a mentor to undergraduate and graduate researchers. I am interested in pursuing a faculty career focused on building a research program in sustainable and dependable autonomous systems.</p>
+<p>I also work on <b>simulation, validation, and system-level performance analysis</b>. My experience includes simulation-based testing, ROS data processing, debugging distributed and compute-intensive systems, and analyzing performance bottlenecks across software and hardware stacks. I am especially interested in making simulation more representative of real-world deployment, so that it can serve as a more reliable tool for evaluating autonomous systems before they are deployed in practice.</p>
+
+<p>Alongside autonomous systems, I study how structural transformations and parallel algorithms improve the efficiency of large-scale graph processing. I also enjoy teaching and mentoring undergraduate and graduate students. Across research and engineering, I am motivated by problems that require both theoretical insight and practical implementation, and I enjoy turning technical ideas into working systems.</p>
 
 </div>
 

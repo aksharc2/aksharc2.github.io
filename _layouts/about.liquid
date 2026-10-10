@@ -1,7 +1,34 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
+  <div class="about-shell">
+
+<aside class="about-sidebar" aria-label="Profile information">
+  {% if page.profile and page.profile.image %}
+    {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+    {% if page.profile.image_circular %}
+      {% assign profile_image_class = 'img-fluid rounded-circle' %}
+    {% else %}
+      {% assign profile_image_class = 'img-fluid rounded' %}
+    {% endif %}
+
+    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt="Profile portrait" cache_bust=true %}
+  {% endif %}
+
+  <!-- Professional description below profile photo -->
+  <div class="profile-description">
+    <div class="profile-role">Researcher &amp; Systems Engineer</div>
+    <div>Robotics · Autonomous Systems</div>
+    <div>Simulation · Computing Systems</div>
+  </div>
+
+  {% if page.profile.more_info %}
+    <div class="more-info">{{ page.profile.more_info }}</div>
+  {% endif %}
+</aside>
+
+    <div class="about-main">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -15,29 +42,6 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
@@ -85,4 +89,6 @@ layout: default
       </div>
     {% endif %}
   </article>
+    </div>
+  </div>
 </div>

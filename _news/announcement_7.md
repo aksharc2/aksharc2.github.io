@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Paper update:** Our paper **“Speeding-up Graph Algorithms via Clique Partitioning”** has been conditionally accepted for publication in **Networks**. The work explores accelerating graph algorithms through clique partitioning.
+**Paper published:** Our paper [“Speeding-up Graph Algorithms via Clique Partitioning”](https://doi.org/10.1002/net.70038) has been published in **Networks**. The work investigates lossless graph restructuring using deterministic clique partitioning to improve the efficiency of graph algorithms.
